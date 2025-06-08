@@ -1,6 +1,6 @@
 # Portfolio 2 - Martin K
 
-![Portfolio Screenshot](./public/portfolio-screenshot.png)
+![Portfolio Screenshot](https://github.com/user-attachments/assets/69224f86-3319-469c-b0e1-4445c8bbb4fc)
 
 A modern, responsive portfolio website showcasing my journey as a full-stack developer through my Noroff studies. Built with Next.js and featuring a purple theme with dark mode as default.
 
