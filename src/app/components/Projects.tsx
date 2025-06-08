@@ -7,7 +7,8 @@ const projects = [
     imageUrl: "/holidaze.png",
     githubUrl: "https://github.com/martink-rsa/noroff-project-exam-2",
     liveUrl: "https://noroffprojectexam2.netlify.app/",
-    technologies: ["React", "JavaScript", "API", "Responsive Design", "UI/UX"]
+    technologies: ["React", "JavaScript", "API", "Responsive Design", "UI/UX"],
+    slug: "holidaze"
   },
   {
     title: "AuctionHouse - Online Bidding Platform",
@@ -15,7 +16,8 @@ const projects = [
     imageUrl: "/auctionhouse.png",
     githubUrl: "https://github.com/martink-rsa/noroff-semester-project-2",
     liveUrl: "https://noroff-semester-project-2.vercel.app/",
-    technologies: ["JavaScript", "API", "Authentication", "Real-time", "Security"]
+    technologies: ["JavaScript", "API", "Authentication", "Real-time", "Security"],
+    slug: "auctionhouse"
   },
   {
     title: "Luxur - Premium E-commerce",
@@ -23,7 +25,8 @@ const projects = [
     imageUrl: "/luxur.png",
     githubUrl: "https://github.com/martink-rsa/noroff-jsfw-assignment",
     liveUrl: "https://noroff-jsfw-assignment.vercel.app/",
-    technologies: ["React", "TypeScript", "E-commerce", "Premium Design", "Frontend"]
+    technologies: ["React", "TypeScript", "E-commerce", "Premium Design", "Frontend"],
+    slug: "luxur"
   }
 ];
 
@@ -49,6 +52,7 @@ export default function Projects() {
               githubUrl={project.githubUrl}
               liveUrl={project.liveUrl}
               technologies={project.technologies}
+              slug={project.slug}
             />
           ))}
         </div>
